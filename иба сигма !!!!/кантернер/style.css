@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./0.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 100%;
+    background-color: rgb(82, 0, 0);
+    padding: 10px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px;
+}
+
+.box {
+    width: 30%;
+    padding: 20px;
+    border-radius: 70px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background-image: url('./6907427957.jpg');
+
+}
+
+.box:hover {
+    transform: 1.05;
+}
